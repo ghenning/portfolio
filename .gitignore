@@ -1,0 +1,8 @@
+# twitter bot
+twitter_quote_bot/auth_key.py
+twitter_quote_bot/__pychache__/
+twitter_quote_bot/__pychache__/*
+twitter_quote_bot/*.pyc
+
+__pycache__/
+*.pyc
