@@ -6,6 +6,11 @@ of different languages using the [DeepL](https://www.deepl.com/en)
 API, and finally tweets the resulting quote using the 
 [Twitter](https://twitter.com) API.
 
+*The current translation chain is:*
+```
+english -> japanese -> german -> british english
+```
+
 *Initially, the idea was to simply send the quote through a few
 translations where the end result would be a weird, non-sensical
 quote. However, the DeepL translater is pretty darn good, and no
