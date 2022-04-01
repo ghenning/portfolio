@@ -9,5 +9,5 @@ user's words per minute.
 
 ![](images/xample.png)
 
-The words are obtained from the [random word API][https://random-word-api.herokuapp.com/home] and filtered so no words longer than 7 letters
+The words are obtained from the [random word API](https://random-word-api.herokuapp.com/home) and filtered so no words longer than 7 letters
 should appear.
