@@ -4,5 +4,8 @@ twitter_quote_bot/__pychache__/
 twitter_quote_bot/__pychache__/*
 twitter_quote_bot/*.pyc
 
-__pycache__/
+__pycache__
 *.pyc
+**/*.pyc
+**/__pycache
+**/*.swp
