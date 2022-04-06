@@ -1,0 +1,23 @@
+body{
+	font-family: sans-serif;
+	margin: 0;
+	/*background-color: #6495ED;*/
+	background-color: #4682B4;	
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.header{
+	padding: 5% 15%;
+}
+
+.selector{
+	/*font-weight: 800;*/
+	padding: 10% 15% 5%;
+}
+
+.footer{
+	padding: 5% 15%;
+}
+
+
