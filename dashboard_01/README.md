@@ -5,6 +5,10 @@ on fatal police shootings in the USA between 2015-2017.
 The data is obtained from 
 [The Washington Post](https://www.washingtonpost.com/graphics/investigations/police-shootings-database/).
 
+# [Show me the dashboard!](https://ghenning-dashboard-01.herokuapp.com/)
+
+## Explore Locally
+
 To explore the dashboard, simply run `app.py` and go to the link
 that appears in the terminal (as seen below), and make sure that
 you have Dash, Plotly, and Pandas installed:

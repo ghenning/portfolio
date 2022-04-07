@@ -7,6 +7,7 @@ educational (at least to me). Feel free to take a look around.
 
 - *dashboard_01*: An interactive dashboard to explore a pandas
 dataframe using Dash and Plotly.
+[(show me)](https://ghenning-dashboard-01.herokuapp.com/)
 - *glossary_flash_cards*: A GUI Tkinter flashcard app.
 - *text_to_morse*: A terminal-based text-to-morse converter.
 - *tic_tac_toe*: Play the classic game on your terminal.
