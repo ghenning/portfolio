@@ -1,0 +1,39 @@
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename    ='css/styles.css') }}">
+
+<div class='header'>
+<h1>Shakecraft's short stories</h1>
+<h2>This (imaginary) lovechild of Shakespeare and Lovecraft
+is primed and ready to write a short story for you. Provide
+the start of the story and its length in the fields below
+and then politely click the <em>"Write me a story!"</em> 
+button to have Shakecraft do his best to write something good
+(or at least interesting). Note that Shakecraft might take some seconds
+to think and write after you click the button.</h2>
+</div>
+<div class='inputs'>
+<form  method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    <div class='query-text'>
+    {{ form.start_seed.label }}
+    </div> <br>
+    {{form.start_seed}}
+    <br>
+    <div class='query-text'>
+    {{ form.story_len.label}}
+    </div>  <br>
+    {{form.story_len}} <br>
+    {{ form.submit() }}
+</form>
+</div>
+<div class='footer'>
+<em>Note: Shakecraft has learned the art of writing by learning
+from the works of Shakespeare and Lovecraft and only knows how to
+predict a single character at a time. Therefore, the stories will
+not be a cohesive unit but rather a collection of X singly predicted
+characters that might end abruptly. Also, due to the unique way of writing
+from Shakespeare and Lovecraft, Shakecraft might try to come up with its own
+unique words in a similar style. Due to memory constraints on Heroku, 
+Shakecraft has been simplified to consume less space. </em>
+</div>
+

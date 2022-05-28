@@ -1,0 +1,25 @@
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename    ='css/styles.css') }}">
+
+<div class='header'>
+<h1>Shakecraft has finished his literary adventure and
+tried to write a story based on these inputs:</h1>
+<ul>
+	<li>Story start: {{session['start_seed']}}</li>
+	<li>Story length:  {{session['story_len']}} characters</li>
+</ul>
+</div>
+<div class='inputs'>
+<h2>Shakecraft's story:</h2>
+{{results}}
+</div>
+<div class='footer'>
+<em>Note: Shakecraft has learned the art of writing by learning
+from the works of Shakespeare and Lovecraft and only knows how to
+predict a single character at a time. Therefore, the stories will
+not be a cohesive unit but rather a collection of X singly predicted
+characters that might end abruptly. Also, due to the unique way of writing
+from Shakespeare and Lovecraft, Shakecraft might try to come up with its own
+unique words in a similar style. Due to memory constraints on Heroku, 
+Shakecraft has been simplified to consume less space.</em>
+</div>
+

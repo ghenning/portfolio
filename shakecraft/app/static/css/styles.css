@@ -1,0 +1,50 @@
+body{
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #3b3b3b;
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.header, .footer{
+	padding: 5% 15% 3%;
+	background-color: #3b3b3b;
+	color: #ffffff;
+}
+
+.inputs{
+	padding: 5% 15% 5%;
+	background-color: #cecece;
+}
+
+.query-text{
+	padding-top: 2%;
+	font-weight: bold;
+}
+
+#submit{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 5%;
+	padding: 3% 5%;
+	background-color: #3b3b3b;
+	color: #ffffff;
+	width: 50%;
+}
+
+#start_seed{
+	font-size: 1em;
+	width: 80%;
+	background-color: #3b3b3b;
+	color: #ffffff;
+}
+
+#story_len{
+	background-color: #3b3b3b;
+	color: #ffffff;
+	font-size: 1em;
+}
+

@@ -5,6 +5,9 @@ educational (at least to me). Feel free to take a look around.
 
 ## What's in here?
 
+- *Shakecraft*: An NLP model made with TensorFlow to generate
+text in the style of Shakespeare and Lovecraft. Deployed as
+an app using Flask on Heroku. [(show me)](https://shakecraft.herokuapp.com/)
 - *dashboard_01*: An interactive dashboard to explore a pandas
 dataframe using Dash and Plotly.
 [(show me)](https://ghenning-dashboard-01.herokuapp.com/)
