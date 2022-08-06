@@ -9,3 +9,6 @@ __pycache__
 **/*.pyc
 **/__pycache
 **/*.swp
+
+# lovecraft's haikus
+lovecraft_haiku/.ipynb_checkpoints
