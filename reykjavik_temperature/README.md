@@ -1,6 +1,6 @@
 # Reykjavik temperature analysis
 
-Let's take a look at temperature data from Reykjavik. We can find the data [here](https://en.vedur.is/climatology/data/), neatly sorted into montly time samples since 1949. In this project we'll be trying to predict the temperature in the coming months/years based on our historical data. 
+Let's take a look at temperature data from Reykjavik. We can find the data [here](https://en.vedur.is/climatology/data/), neatly sorted into monthly time samples since 1949. In this project we'll be trying to predict the temperature in the coming months/years based on our historical data. 
 
 We use `TimeseriesGenerator` from `Tensorflow` to generate chunks of time series to train on. We try out different neural networks to see if we get better results by adding/decreasing the model complexity and find that a simple, single-layer LSTM network is best suited for our needs. Finally we predict the temperature in Reykjavik for the next decade which is shown in the figure below.
 
