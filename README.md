@@ -5,6 +5,8 @@ educational (at least to me). Feel free to take a look around.
 
 ## What's in here?
 
+- *reykjavik_temperatures*: Time series analysis using tensorflow to predict
+temperatures in Reykjavik based on historical data.
 - *lovecraft_haiku*: An NLP model made with TensorFlow to generate
 haikus in the style of H. P. Lovecraft.
 - *Shakecraft*: An NLP model made with TensorFlow to generate
