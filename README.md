@@ -5,6 +5,9 @@ educational (at least to me). Feel free to take a look around.
 
 ## What's in here?
 
+- *football_statistics_2021_2022*: A look into football player statistics
+for the 2021-2022 season with an accompanying interactive plotting
+dashboard.
 - *reykjavik_temperatures*: Time series analysis using TensorFlow to predict
 temperatures in Reykjavik based on historical data.
 - *lovecraft_haiku*: An NLP model made with TensorFlow to generate

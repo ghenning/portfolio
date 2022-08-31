@@ -1,0 +1,22 @@
+body{
+	font-family: sans-serif;
+	background-color: #B1D0E0;
+	color: #000000;
+	text-align: center;
+}
+
+.headfoot{
+	padding: 5% 10%;
+}
+
+.droppy{
+	padding: 0% 15% 0%;
+}
+
+.pltbutton{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 1rem 2rem;
+	font-size: Large;
+	font-weight: Bold;
+}
