@@ -181,7 +181,7 @@ app.layout = html.Div(
 			),
 
 			html.A(children="Find my project here.",
-					href="https://google.com")
+					href="https://github.com/ghenning/portfolio/tree/main/football_statistics_2021_2022")
 		],
 		className='headfoot',
 	),

@@ -4,7 +4,7 @@
 
 Let's explore performance metrics of footballers to see which players are the top performers in certain aspects. We'll also try to aggregate statistics to find the best overall-performing players.
 
-**Check out the complementary interactive plotting dashboard with this project [HERE](https://www.google.com).**
+**Check out the complementary interactive plotting dashboard with this project [HERE](https://football-stats-21-22.herokuapp.com/).**
 
 Our dataset contains statistics from the top 5 leagues in Europe for the 2021-2022 season:
 - Premier League - England
@@ -390,4 +390,4 @@ Unfortunately, there aren't many relevent statistics for goalkeepers in the data
 
 ## Conclusion
 
-Determining the best players by looking at a plot of two statistics does not paint a complete picture, but it gives a pretty damn good idea of their skills if you know what to look for. Aggregating a collection of statistics is also not an exact science, as players playing in the same position can have vastly different roles within their respective teams. But again, it can give a decent idea of who the top performers might be. I for one was expecting to see Robert Lewandowski, Sadio Mane, and Virgil van Dikj popping up more as the best performers in some of the categories explored here. They will certainly show up by selecting the right combination of features. That's something you can do in the complementary interactive plotting dashboard **[here](https://google.com)**. 
+Determining the best players by looking at a plot of two statistics does not paint a complete picture, but it gives a pretty damn good idea of their skills if you know what to look for. Aggregating a collection of statistics is also not an exact science, as players playing in the same position can have vastly different roles within their respective teams. But again, it can give a decent idea of who the top performers might be. I for one was expecting to see Robert Lewandowski, Sadio Mane, and Virgil van Dikj popping up more as the best performers in some of the categories explored here. They will certainly show up by selecting the right combination of features. That's something you can do in the complementary interactive plotting dashboard **[here](https://football-stats-21-22.herokuapp.com/)**. 
