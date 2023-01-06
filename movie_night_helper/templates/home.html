@@ -1,0 +1,30 @@
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/styles.css') }}">
+
+<div class='header'>
+<h1>Movie Night Helper</h1>
+<h2>Select a genre and the size of movie pool to pull from</h2>
+</div>
+<div class='inputs'>
+<form  method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+	<div class="row">
+		<div class="column">
+			<div class='query-text'>
+			<h1>{{ form.select_genre.label }}</h1>
+			</div>  
+			{{form.select_genre(class_="form-control")}}
+		</div>
+		<div class="column">
+			<div class='query-text'>
+			<h1>{{ form.select_number.label}}</h1>
+			</div>  
+			{{form.select_number(class_="form-control")}} 
+		</div>
+	</div>
+    {{ form.submit() }}
+</form>
+</div>
+<div class='footer'>
+<em>I'm a footer </em>
+</div>

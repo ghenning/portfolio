@@ -1,0 +1,56 @@
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename    ='css/styles.css') }}">
+
+<div class='header'>
+<h1>From the top {{session['select_number']}} movies in the {{session['select_genre']}} genre I suggest you watch this movie:</h1>
+</div>
+<div class='inputs'>
+<h2>{{res_title}} ({{res_year}})</h2>
+<div class="row">
+	<div class="column">
+		<table id="movie_info">
+		  <tr>
+			<td><strong>Title</strong></td>
+			<td>{{res_title}}</td>
+		  </tr>
+		  <tr>
+			<td><strong>Year</strong></td>
+			<td>{{res_year}}</td>
+		  </tr>
+		  <tr>
+			<td><strong>Runtime (min)</strong></td>
+			<td>{{res_runtime}}</td>
+		  </tr>
+		  <tr>
+			<td><strong>IMDB Rating</strong></td>
+			<td>{{res_rate1}}</td>
+		  </tr>
+		  <tr>
+			<td><strong>Metacritic Rating</strong></td>
+			<td>{{res_rate2}}</td>
+		  </tr>
+		  <tr>
+			<td><strong>Genres</strong></td>
+			<td>
+				{% for genre in res_genre %}
+				{{genre}}
+				{% endfor %}
+			</td>
+		  </tr>
+		  <tr>
+			<td><strong>Age Rating</strong></td>
+			<td>{{res_age}}</td>
+		  </tr>
+		</table>
+	</div>
+	<div class="column">
+		<img id="movie_poster" src="{{res_poster}}">
+	</div>
+</div>
+<button id="backButton">
+<a id="takeMeBack" href="{{ url_for('index') }}">Take me back, I want to search for something else</a>
+</button>
+</div>
+<div class='footer'>
+<em> </em>
+</div>
+

@@ -12,3 +12,8 @@ __pycache__
 
 # lovecraft's haikus
 lovecraft_haiku/.ipynb_checkpoints
+
+# movie_night_helper
+movie_night_helper/auth_key.py
+movie_night_helper/__pycache__
+

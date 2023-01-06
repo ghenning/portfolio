@@ -5,6 +5,8 @@ educational (at least to me). Feel free to take a look around.
 
 ## What's in here?
 
+- *movie_night_helper*: Python/Flask app that helps you pick 
+a movie to watch for your next movie night. No more selection headaches!
 - *football_statistics_2021_2022*: A look into football player statistics
 for the 2021-2022 season with an accompanying interactive plotting
 dashboard.
